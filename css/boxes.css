@@ -1,0 +1,171 @@
+/* box styles */
+.box{
+   padding: 1rem;
+   color: #fff;
+   text-align: center;
+   text-shadow: 1px 1px 1px #000;
+   border: 1px solid #000;
+}
+
+.blue,
+.lineblue,
+.dotsblue{
+   background-color: #2a80b9;
+}
+
+.purple,
+.linepurple,
+.dotspurple{
+   background-color: #8f44ad;
+}
+.green,
+.linegreen,
+.dotsgreen{
+   background-color: #0c8a4b;
+}
+.yellow,
+.lineyellow,
+.dotsyellow{
+   background-color: #f5ea4e;
+}
+.orange,
+.lineorange,
+.dotsorange{
+   background-color: #eb712b;
+}
+.red,
+.linered,
+.dotsred{
+   background-color: #a81f1f;
+}
+.slate,
+.lineslate,
+.dotsslate{
+   background-color: rgba(31, 69, 100, 0.993);
+}
+
+.lineblue {
+   background: repeating-linear-gradient(
+     -55deg,
+     #2a80b9,
+     #2a80b9 5px,
+     rgb(111, 177, 231) 5px,
+     rgb(111, 177, 231) 10px
+   );
+}
+.linepurple {
+   background: repeating-linear-gradient(
+     -53deg,
+     #8f44ad,
+     #8f44ad 5px,
+     rgb(111, 177, 231) 5px,
+     rgb(111, 177, 231) 9px
+   );
+}
+.linegreen {
+   background: repeating-linear-gradient(
+     -55deg,
+     #0c8a4b,
+     #0c8a4b 5px,
+     rgb(102, 223, 177) 5px,
+     rgb(102, 223, 177) 10px
+   );
+}
+.lineyellow {
+   background: repeating-linear-gradient(
+     -55deg,
+     #f5ea4e,
+     #f5ea4e 5px,
+     rgb(250, 241, 189) 5px,
+     rgb(250, 241, 189) 10px
+
+   );
+}
+.lineorange {
+   background: repeating-linear-gradient(
+     -55deg,
+     #eb712b,
+     #eb712b 5px,
+     rgb(250, 184, 97) 5px,
+     rgb(250, 184, 97) 10px
+
+   );
+}
+.linered {
+   background: repeating-linear-gradient(
+     -55deg,
+     #a81f1f,
+     #a81f1f 5px,
+     rgb(255, 130, 130) 5px,
+     rgb(255, 130, 130) 10px
+   );
+}
+.lineslate {
+   background: repeating-linear-gradient(
+     -55deg,
+    #1f4564,
+    #1f4564 5px,
+     rgb(203, 221, 228) 5px,
+     rgb(203, 221, 228) 10px
+   );
+}
+.lineslate {
+   background: repeating-linear-gradient(
+     -55deg,
+    #1f4564,
+    #1f4564 5px,
+     rgb(203, 221, 228) 5px,
+     rgb(203, 221, 228) 10px
+   );
+}
+.dotsblue {
+   background-image:
+   radial-gradient( rgb(111, 177, 231)  20%, transparent 0), 
+   radial-gradient( rgb(111, 177, 231)  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+
+.dotspurple {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+
+.dotsgreen {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+.dotsyellow {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+.dotsorange {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+.dotsred {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}
+.dotsslate {
+   background-image:
+   radial-gradient(#ecccf9  20%, transparent 0), 
+   radial-gradient(#ecccf9  20%, transparent 0);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+}

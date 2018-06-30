@@ -1,0 +1,64 @@
+@import url('css/boxes.css');
+@import url('css/style.css');
+
+.the-grid{
+   display:grid;
+   grid-gap: 10px 10px;
+   grid-template-areas:
+   "header header header header header header header"
+   "sidebarleft sidebarleft content content content sidebarright sidebarright"
+   "footer footer footer footer footer footer footer";
+   grid-rows: auto;
+   /* width: 1000px;
+   border: 1px solid #ededed;
+   margin: 0 auto;
+   grid-template-columns: repeat(12, 1fr );
+   grid-column-gap: 5px;
+   grid-row-gap: 5px; */
+   /* grid-template-columns: 1fr 2fr 1fr 1fr 1fr; */
+   /* grid-template-columns: 25% 2fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 2fr 1fr 2fr 1fr; */
+}
+.dotsgreen {
+   grid-area: header;
+}
+.yellow{
+   grid-area: content;
+}
+.lineblue{
+   grid-area: sidebarleft;
+}
+.linered{
+   grid-area: sidebarright;
+}
+.dotsorange{
+   grid-area: footer;
+}
+
+
+/* replaces box 2 with box 4 and pushes rest around */
+/* .yellow{
+   grid-column: 2/3;
+   grid-row: 1/2;
+} */
+
+/* creates 2 new grid colums 5 & 6 since they didn't exist before  */
+/*.yellow{
+   grid-column: 3/4; /* 5 start col value 6 end col value */
+/*   grid-row: 1/3;    /* 1 start row value 2 end col value  } */
+
+/* .yellow{
+   grid-column:2/3;
+   grid-row: 1/2;
+}
+.linepurple{
+   grid-column:1/2;
+   grid-row: 1/2;
+}
+.purple{
+   grid-column:3/4;
+   grid-row: 2/3;  
+}
+.linegreen{
+   grid-row:3/4;
+} */
