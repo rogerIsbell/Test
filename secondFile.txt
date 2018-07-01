@@ -1,1 +1,3 @@
-First Entry in second fileg
+First Entry in second file
+
+Another Element Added
