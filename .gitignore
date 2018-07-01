@@ -1,4 +1,8 @@
 # '#' starts comments
+# files to ignore
+# system files, log files
+# user uploaded images,  f
+
 *.log
 *.zip
 *.gz
